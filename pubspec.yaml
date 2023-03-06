@@ -63,6 +63,11 @@ flutter:
   assets:
     - images/monkey.png
     - images/banana.png
+    - images/background.jpg
+    - images/background2.jpg
+    - images/monkey.jpg
+    - images/monkey.gif
+    
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

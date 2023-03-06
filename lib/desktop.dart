@@ -36,178 +36,184 @@ class _DesktopPageState extends State<DesktopPage> {
         ),
       ),
       body: Center(
-        child: SingleChildScrollView(
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-            children: [
-              Row(
-                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                children: [
-                  Column(
-                    children: const [
-                      Button(),
-                      Text('Banana',
-                          style: TextStyle(
-                              color: Color.fromARGB(255, 255, 179, 0))),
-                    ],
-                  ),
-                  Column(
-                    children: const [
-                      Button(),
-                      Text('Banana',
-                          style: TextStyle(
-                              color: Color.fromARGB(255, 255, 179, 0))),
-                    ],
-                  ),
-                  Column(
-                    children: const [
-                      Button(),
-                      Text('Banana',
-                          style: TextStyle(
-                              color: Color.fromARGB(255, 255, 179, 0))),
-                    ],
-                  ),
-                ],
-              ),
-              const Divider(
-                color: Color.fromARGB(255, 255, 236, 179),
-                height: 15,
-              ),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                children: [
-                  Column(
-                    children: const [
-                      Button(),
-                      Text('Banana',
-                          style: TextStyle(
-                              color: Color.fromARGB(255, 255, 179, 0))),
-                    ],
-                  ),
-                  Column(
-                    children: const [
-                      Button(),
-                      Text('Banana',
-                          style: TextStyle(
-                              color: Color.fromARGB(255, 255, 179, 0))),
-                    ],
-                  ),
-                  Column(
-                    children: const [
-                      Button(),
-                      Text('Banana',
-                          style: TextStyle(
-                              color: Color.fromARGB(255, 255, 179, 0))),
-                    ],
-                  ),
-                ],
-              ),
-              const Divider(
-                color: Color.fromARGB(255, 255, 236, 179),
-                height: 15,
-              ),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                children: [
-                  Column(
-                    children: const [
-                      Button(),
-                      Text('Banana',
-                          style: TextStyle(
-                              color: Color.fromARGB(255, 255, 179, 0))),
-                    ],
-                  ),
-                  Column(
-                    children: const [
-                      Button(),
-                      Text('Banana',
-                          style: TextStyle(
-                              color: Color.fromARGB(255, 255, 179, 0))),
-                    ],
-                  ),
-                  Column(
-                    children: const [
-                      Button(),
-                      Text('Banana',
-                          style: TextStyle(
-                              color: Color.fromARGB(255, 255, 179, 0))),
-                    ],
-                  ),
-                ],
-              ),
-              const Divider(
-                color: Color.fromARGB(255, 255, 236, 179),
-                height: 15,
-              ),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                children: [
-                  Column(
-                    children: const [
-                      Button(),
-                      Text('Banana',
-                          style: TextStyle(
-                              color: Color.fromARGB(255, 255, 179, 0))),
-                    ],
-                  ),
-                  Column(
-                    children: const [
-                      Button(),
-                      Text('Banana',
-                          style: TextStyle(
-                              color: Color.fromARGB(255, 255, 179, 0))),
-                    ],
-                  ),
-                  Column(
-                    children: const [
-                      Button(),
-                      Text('Banana',
-                          style: TextStyle(
-                              color: Color.fromARGB(255, 255, 179, 0))),
-                    ],
-                  ),
-                ],
-              ),
-              const Divider(
-                color: Color.fromARGB(255, 255, 236, 179),
-                height: 15,
-              ),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                children: [
-                  Column(
-                    children: const [
-                      Button(),
-                      Text('Banana',
-                          style: TextStyle(
-                              color: Color.fromARGB(255, 255, 179, 0))),
-                    ],
-                  ),
-                  Column(
-                    children: const [
-                      Button(),
-                      Text('Banana',
-                          style: TextStyle(
-                              color: Color.fromARGB(255, 255, 179, 0))),
-                    ],
-                  ),
-                  Column(
-                    children: const [
-                      Button(),
-                      Text('Banana',
-                          style: TextStyle(
-                              color: Color.fromARGB(255, 255, 179, 0))),
-                    ],
-                  ),
-                ],
-              ),
-              const Divider(
-                color: Colors.amber,
-                height: 15,
-                indent: 35,
-                endIndent: 35,
-              ),
-            ],
+        child: Container(
+          decoration: const BoxDecoration(
+            image: DecorationImage(
+                image: AssetImage('images/monkey.gif'), fit: BoxFit.cover),
+          ),
+          child: SingleChildScrollView(
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              children: [
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                  children: [
+                    Column(
+                      children: const [
+                        Button(),
+                        Text('Banana',
+                            style: TextStyle(
+                                color: Color.fromARGB(255, 255, 179, 0))),
+                      ],
+                    ),
+                    Column(
+                      children: const [
+                        Button(),
+                        Text('Banana',
+                            style: TextStyle(
+                                color: Color.fromARGB(255, 255, 179, 0))),
+                      ],
+                    ),
+                    Column(
+                      children: const [
+                        Button(),
+                        Text('Banana',
+                            style: TextStyle(
+                                color: Color.fromARGB(255, 255, 179, 0))),
+                      ],
+                    ),
+                  ],
+                ),
+                const Divider(
+                  color: Color.fromARGB(255, 255, 236, 179),
+                  height: 15,
+                ),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                  children: [
+                    Column(
+                      children: const [
+                        Button(),
+                        Text('Banana',
+                            style: TextStyle(
+                                color: Color.fromARGB(255, 255, 179, 0))),
+                      ],
+                    ),
+                    Column(
+                      children: const [
+                        Button(),
+                        Text('Banana',
+                            style: TextStyle(
+                                color: Color.fromARGB(255, 255, 179, 0))),
+                      ],
+                    ),
+                    Column(
+                      children: const [
+                        Button(),
+                        Text('Banana',
+                            style: TextStyle(
+                                color: Color.fromARGB(255, 255, 179, 0))),
+                      ],
+                    ),
+                  ],
+                ),
+                const Divider(
+                  color: Color.fromARGB(255, 255, 236, 179),
+                  height: 15,
+                ),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                  children: [
+                    Column(
+                      children: const [
+                        Button(),
+                        Text('Banana',
+                            style: TextStyle(
+                                color: Color.fromARGB(255, 255, 179, 0))),
+                      ],
+                    ),
+                    Column(
+                      children: const [
+                        Button(),
+                        Text('Banana',
+                            style: TextStyle(
+                                color: Color.fromARGB(255, 255, 179, 0))),
+                      ],
+                    ),
+                    Column(
+                      children: const [
+                        Button(),
+                        Text('Banana',
+                            style: TextStyle(
+                                color: Color.fromARGB(255, 255, 179, 0))),
+                      ],
+                    ),
+                  ],
+                ),
+                const Divider(
+                  color: Color.fromARGB(255, 255, 236, 179),
+                  height: 15,
+                ),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                  children: [
+                    Column(
+                      children: const [
+                        Button(),
+                        Text('Banana',
+                            style: TextStyle(
+                                color: Color.fromARGB(255, 255, 179, 0))),
+                      ],
+                    ),
+                    Column(
+                      children: const [
+                        Button(),
+                        Text('Banana',
+                            style: TextStyle(
+                                color: Color.fromARGB(255, 255, 179, 0))),
+                      ],
+                    ),
+                    Column(
+                      children: const [
+                        Button(),
+                        Text('Banana',
+                            style: TextStyle(
+                                color: Color.fromARGB(255, 255, 179, 0))),
+                      ],
+                    ),
+                  ],
+                ),
+                const Divider(
+                  color: Color.fromARGB(255, 255, 236, 179),
+                  height: 15,
+                ),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                  children: [
+                    Column(
+                      children: const [
+                        Button(),
+                        Text('Banana',
+                            style: TextStyle(
+                                color: Color.fromARGB(255, 255, 179, 0))),
+                      ],
+                    ),
+                    Column(
+                      children: const [
+                        Button(),
+                        Text('Banana',
+                            style: TextStyle(
+                                color: Color.fromARGB(255, 255, 179, 0))),
+                      ],
+                    ),
+                    Column(
+                      children: const [
+                        Button(),
+                        Text('Banana',
+                            style: TextStyle(
+                                color: Color.fromARGB(255, 255, 179, 0))),
+                      ],
+                    ),
+                  ],
+                ),
+                const Divider(
+                  color: Colors.amber,
+                  height: 15,
+                  indent: 35,
+                  endIndent: 35,
+                ),
+              ],
+            ),
           ),
         ),
       ),
